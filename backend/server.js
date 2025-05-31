@@ -6,7 +6,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const app = express();
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://anytools-ruby.vercel.app/" }));
 
 const upload = multer({ dest: "uploads/" });
 
